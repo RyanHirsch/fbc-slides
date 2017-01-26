@@ -1,0 +1,32 @@
+.event-location:before {
+  content: "( ";
+}
+
+.event-location:after {
+  content: " )";
+}
+
+.schedule-event {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+
+.schedule-events {
+  list-style: none;
+}
+
+.event-time {}
+.event-start {}
+.event-end {}
+
+
+.event-content {
+  font-weight: bold;
+}
+
+.schedule-subcontent {
+  margin-top: auto;
+  /*align-self: flex-end;*/
+}
